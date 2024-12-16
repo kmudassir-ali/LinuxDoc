@@ -1,0 +1,2 @@
+/bin  -  contains files that are essential to the operating system and are used by all users
+         The bin directory contains executable files, including commands like cat, cp, cd, and ls
