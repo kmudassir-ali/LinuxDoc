@@ -1,2 +1,18 @@
 /bin  -  contains files that are essential to the operating system and are used by all users
          The bin directory contains executable files, including commands like cat, cp, cd, and ls
+/sbin -  The /sbin directory is different from the /bin directory, which contains executable programs that are accessible to all users for regular system operations. 
+/var  -  It is a standard subdirectory of the root directory that stores files that change frequently while the system is running
+         /var/log: Contains system logs, which record system events and are used for troubleshooting
+         /var/cache: Contains application cache data
+         /var/lib: Contains state information, such as databases and packaging system metadata
+         /var/lock: Contains lock files that keep track of resources in use
+         /var/mail: Contains mailbox files
+         /var/opt: Contains variable data from add-on packages
+         /var/run: Previously contained run-time variable data, but has been replaced by /run in FHS 3.0
+         /var/spool: Contains files for tasks awaiting processing, such as print queues and outgoing mail queues
+         /var/tmp: Contains temporary files that are meant to be preserved between reboots 
+/etc  -  The /etc directory in Linux is a central location for storing configuration files and directories that control the operating system
+/lib  -  The /lib directory in Linux contains shared libraries and kernel modules that are essential for the system to boot and run commands: 
+         /lib/machine-architecture Contains libraries that are dependent on the platform or architecture 
+         /lib/iptables Contains iptables shared library files 
+         /lib/kbd Contains various keymaps
